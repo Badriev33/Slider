@@ -3,7 +3,11 @@ fetch('bec.php')// запрос на бек для получения данны
     return response.json();
   })
   .then((data) => {
+<<<<<<< HEAD
     const a = (data) //получаем данные с сервера и нарезаем ссылки слайсами, под каждый слайд
+=======
+    const a = (data) //получаем данные с сервера и нарезаем ссылки слайсами
+>>>>>>> 63c6f24314b6b4b275b117ac9575a83acbd0d887
     const img = a.slice(0, 56)
     const imgtwo = a.slice(58, 126)
     const imgthree = a.slice(128, 198)
@@ -19,7 +23,11 @@ const prev = document.getElementById('btn-prev')
       slides = document.querySelectorAll('.slide')
       dots = document.querySelectorAll('.dot')
 
+<<<<<<< HEAD
 index = 0 //создаем переменную для отсчета слайдов
+=======
+index = 0
+>>>>>>> 63c6f24314b6b4b275b117ac9575a83acbd0d887
 
 const activeSlide = n => { //функция для активации слайдов
   console.log(n)
@@ -50,6 +58,7 @@ const nextSlide = () => {//функция для кнопки next котора�
   }
 }
 
+<<<<<<< HEAD
 const prevSlide = () => {//функция для кнопки prev которая включает в себя функции активации для слайдов и точек
   if(index == 0) {
     index =slides.length - 1
@@ -63,3 +72,9 @@ const prevSlide = () => {//функция для кнопки prev котора�
 }
 next.addEventListener('click', nextSlide)
 prev.addEventListener('click', prevSlide)
+=======
+
+  
+next.addEventListener('click', nextSlide)
+
+>>>>>>> 63c6f24314b6b4b275b117ac9575a83acbd0d887

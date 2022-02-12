@@ -36,9 +36,25 @@ body {
     justify-content: center;
     font-size: 2rem;
     border-radius:0px 15px 15px 0px;
+<<<<<<< HEAD
     user-select: none;
    
 }
+=======
+   
+}
+#btn-prew:hover {
+    opacity: 0.6;
+    
+}
+ #btn-next:hover {
+    opacity: 0.6;
+   
+}
+
+
+
+>>>>>>> 63c6f24314b6b4b275b117ac9575a83acbd0d887
 
 #btn-next {
     left: auto;
